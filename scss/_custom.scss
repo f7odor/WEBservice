@@ -1,7 +1,7 @@
 /* Top Nav */
 .top-nav {
     width: 100%;
-    background: #3D3F40;
+    background: $dark-gray;
     padding: 0;
     margin: 0;
 }
@@ -16,7 +16,7 @@
       list-style: none;
       float: left;
       padding: 10px 15px;
-      color: #EEEDEE;
+      color: $white;
       font-size: 13px;
     }
 
@@ -40,11 +40,47 @@
       list-style: none;
       float: left;
       padding: 10px 15px;
-      color: #EEEDEE;
+      color: $white;
       font-size: 13px;
     }
 
     a{
-      color: #EEEDEE;
+      color: $white;
     }
+}
+
+/* Top Bar */
+.top-bar{
+  color:$white;
+
+  span{
+    color:lighten( $primary, 30% );
+    background:$dark-gray;
+    padding:5px 9px;
+    margin-right:4px;
+  }
+
+  li{
+    text-transform: uppercase;
+  }
+
+  a{
+    color: $white;
+  }
+
+  a:hover{
+    color: $secondary;
+  }
+
+  a.current{
+    color: $secondary;
+    border-bottom:3px solid $secondary;
+  }
+}
+
+/* Showcase */
+.showcase{
+  background: url('../img/showcase.jpg') no-repeat -100px 0;
+  min-height: 450px;
+  color:$white;
 }
