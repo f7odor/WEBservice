@@ -54,10 +54,11 @@
   color:$white;
 
   span{
-    color:lighten( $primary, 30% );
+    color:lighten( $secondary, 30% );
     background:$dark-gray;
     padding:5px 9px;
     margin-right:4px;
+    cursor: pointer;
   }
 
   li{
@@ -80,7 +81,7 @@
 
 /* Showcase */
 .showcase{
-  background: url('../img/showcase.jpg') no-repeat -100px 0;
+  background: url('../img/sap.png') no-repeat -5px -646px;
   min-height: 450px;
-  color:$white;
+  color: $white;
 }

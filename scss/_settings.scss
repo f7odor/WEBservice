@@ -44,7 +44,7 @@
 @import 'util/util';
 
 
-$primary: #0f74a0;
+$primary: #a5cdde;
 $secondary: #59c2ef;
 $extra: #fb9f33;
 
@@ -82,6 +82,8 @@ $global-flexbox: false;
 $print-transparent-backgrounds: true;
 
 @include add-foundation-colors;
+
+
 
 // 2. Breakpoints
 // --------------
