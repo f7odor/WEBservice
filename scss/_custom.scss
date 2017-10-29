@@ -54,7 +54,7 @@
   color:$white;
 
   span{
-    color:lighten( $secondary, 30% );
+    color: $secondary;
     background:$dark-gray;
     padding:5px 9px;
     margin-right:4px;
@@ -81,7 +81,57 @@
 
 /* Showcase */
 .showcase{
-  background: url('../img/sap.png') no-repeat -5px -646px;
+  background: url('../img/sap.png') no-repeat -55px -667px;
   min-height: 450px;
   color: $white;
+
+  .showcase-box{
+    padding: 20px 20px;
+    margin-top: 40px;
+    background: none;
+    color: $white;
+    border-top: 1px #ccc solid;
+    border-right: 1px #ccc solid;
+    border-left: 1px #ccc solid;
+    border-bottom: 1px #ccc solid;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+    p{
+      border-bottom: 1px #ccc solid;
+      padding-bottom: 10px;
+    }
+  }
+  .start-link{
+    background: none;
+    padding: 10px 30px;
+    border: 1px solid;
+    border-color: $white;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+    .start-link:hover, .start-link:focus, .start-link:active{
+      color: white;
+      border-color: #fff;
+      background-color: #438bca;
+    }
+    h5{
+      padding-left: 18px;
+    }
 }
+
+.search-domain{
+  background: $light-gray;
+  padding: 30px 20px 20px 20px;
+  border-bottom: 2px #ccc solid;
+  margin-bottom: 30px;
+}
+  .domain-form{
+    input, .input-group-label{
+      border-color: $medium-light-gray;
+    }
+  }
