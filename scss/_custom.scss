@@ -75,6 +75,9 @@
 
   a.current{
     color: $secondary;
+    border-top:3px solid $secondary;
+    border-right:3px solid $secondary;
+    border-left:3px solid $secondary;
     border-bottom:3px solid $secondary;
   }
 }
@@ -197,6 +200,10 @@
   margin-top: 30px;
   padding: 50px 0;
   background: $light-gray;
+
+  img{
+    float: left;
+  }
 }
 
 .section-b{
@@ -212,4 +219,15 @@
   color: $white;
   text-align: center;
   padding: 50px 0;
+}
+
+.section-d{
+  background: $secondary;
+  color: $white;
+  padding: 50px 121px;
+  text-align: center;
+
+  .fa{
+    font-size: 90px;
+  }
 }
