@@ -231,3 +231,18 @@
     font-size: 90px;
   }
 }
+
+footer{
+  background: $dark-gray;
+  padding-top: 20px;
+  text-align: center;
+
+  .fa{
+    font-size: 40px;
+    color: #858585;
+  }
+
+  p{
+    color: #858585;
+  }
+}
